@@ -27,6 +27,7 @@
     height: 52px;
     position: fixed;
     top: 0;
+    left: 0;
     background-color: var(--fundo-card);
     display: grid;
     grid-template-columns: 154px 322px 100px 400px;
@@ -127,6 +128,116 @@
 .cabecalho__nav-solucoes {
     padding-left: 8px;
 }
+
+/* MAIN GRID */
+
+.feed__container {
+    display: grid;
+    grid-template-rows: 52px 24px auto;
+    grid-template-columns: 154px 780px 32px 320px 154px;
+}
+
+.feed__central {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}   
+
+.feed__lateral {
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+
+/* FEED CENTRAL */
+
+.feed__central {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    row-gap: 14px;
+}
+
+.feed__principal {
+    background-color: var(--fundo-card);
+    width: 780px;
+    height: 468px;
+    border-radius: 16px;
+}
+
+.feed__destaques {
+    background-color: var(--fundo-card);
+    width: 780px;
+    height: 312px;
+    border-radius: 16px;
+}
+
+.feed__atividades {
+    background-color: var(--fundo-card);
+    width: 780px;
+    height: 371px;
+    border-radius: 16px;
+}
+
+.feed__sobre {
+    background-color: var(--fundo-card);
+    width: 780px;
+    height: 134px;
+    border-radius: 16px;
+}
+
+.feed__experiencias {
+    background-color: var(--fundo-card);
+    width: 780px;
+    height: 358px;
+    border-radius: 16px;
+}
+
+.feed__formacao-academicas {
+    background-color: var(--fundo-card);
+    width: 780px;
+    height: 127px;
+    border-radius: 16px;
+}
+
+.feed__idiomas {
+    background-color: var(--fundo-card);
+    width: 780px;
+    height: 178px;
+    border-radius: 16px;
+}
+
+/* FEED LATERAL */
+
+.feed__lateral {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+
+.feed__lateral__recomendacoes {
+    background-color: var(--fundo-card);
+    width: 320px;
+    height: 546px;
+    border-radius: 16px;
+}
+
+/* SCROLL */
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+::-webkit-scrollbar-track {
+    background-color: var(--fundo-card);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--input);
+    border-radius: 5px;
+  }
+
+
+
+
 
 
 
