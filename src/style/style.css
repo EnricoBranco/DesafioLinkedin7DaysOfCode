@@ -529,6 +529,16 @@
     color: var(--texto-secundario);
 }
 
+/* SOBRE */
+
+.sobre-texto {
+    color: var(--texto-principal);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 15px 0 0 23px;
+    width: 732px;
+    line-height: 20px;
+}
 
 
 
