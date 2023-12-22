@@ -131,6 +131,8 @@
     display: grid;
     grid-template-rows: 52px 24px auto;
     grid-template-columns: 154px 780px 32px 320px 154px;
+    height: 2150px;
+
 }
 
 .feed__central {
@@ -149,6 +151,7 @@
     display: flex;
     flex-direction: column;
     overflow-y: auto;
+    overflow-x: hidden;
     row-gap: 14px;
 }
 
@@ -187,7 +190,7 @@
     border-radius: 16px;
 }
 
-.feed__formacao-academicas {
+.feed__formacao-academica {
     background-color: var(--fundo-card);
     width: 780px;
     height: 127px;
@@ -594,8 +597,21 @@
     margin-left: 30px;
 }
 
+/* FORMAÇÃO CACADEMICA */ 
 
+.formacao-academica-container {
+    display: flex;
+    margin: 10px 0 0 25px;
+    gap: 10px;
+}
 
+.formacao-academica-container img {
+    height: 48px;
+    width: 48px;
+}
 
+/* IDIOMAS */
 
-
+.idiomas-textos {
+    margin: 20px 0 0 25px;
+}
