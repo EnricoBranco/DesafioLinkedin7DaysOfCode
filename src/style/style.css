@@ -540,7 +540,59 @@
     line-height: 20px;
 }
 
+/* EXPERIÊNCIAS */
+.experiencias__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 25px;
+    row-gap: 10px;
+}
 
+.imagem-empresa {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.experiencias-titulo {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--texto-principal);
+    padding-bottom: 5px;
+}
+
+.experiencias-subtitulo {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--texto-principal);
+    padding-bottom: 4px;
+}
+
+.experiencias-paragrafo {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--texto-secundario);
+    padding-bottom: 4px;
+}
+
+.imagem-empresa img {
+    height: 48px;
+    width: 48px;
+}
+
+.experiencias-card {
+    margin-left: 19px;
+    display: flex;
+}
+
+.experiencias-card img {
+    height: 65px;
+}
+
+.experiencias-card div {
+    margin-left: 30px;
+}
 
 
 
