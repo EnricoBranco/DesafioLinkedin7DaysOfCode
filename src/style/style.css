@@ -615,3 +615,52 @@
 .idiomas-textos {
     margin: 20px 0 0 25px;
 }
+
+/* RECOMENDAÇÕES */
+
+.recomendacoes-container {
+    display: flex;
+    margin: 16px 16px 15px 16px;
+}
+
+.recomendacoes-container img {
+    width: 48px;
+    height: 48px;
+}
+
+.recomendacoes__titulo {
+    padding: 16px 0 0 16px;
+    color: var(--texto-principal);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.recomendacoes-nome {
+    padding: 0 0 0px 6px;
+    color: var(--texto-principal);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.recomendacoes-texto {
+    line-height: 17px;
+    padding: 0 0 5px 6px;
+    color: var(--texto-secundario);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.recomendacoes-botao {
+    margin-left: 5px;
+    display: flex;
+    color: var(--texto-principal);
+    font-size: 14px;
+    font-weight: 700;
+    width: 154px;
+    height: 28px;
+    border: 1px solid;
+    border-radius: 16px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
